@@ -93,3 +93,12 @@ str = "coding";
 let reversed = str.split('').reverse().join('');
 console.log(reversed); //gnidoc
 
+// Add or remove N items starting from a index
+
+// arr.splice(start index, number of items to remove, item1, item2, ..., itemN to add from start index position)
+
+let numbersSplice = [1, 2, 3, 4, 5];
+numbersSplice.splice(1, 2, 6, 7, 8);
+// 1st index = 2, Number of items to remove = 2, Removed = 2, 3, To add = 6, 7, 8
+// So result = 1, 6, 7, 8, 4, 5
+console.log(numbers); // [1, 6, 7, 8, 4, 5]
