@@ -1,7 +1,7 @@
 function getAverage (arr) {
     let total = 0
 
-    for (num of arr) {
+    for (let num of arr) {
         total += num 
     }
     
@@ -49,3 +49,4 @@ console.log(getGrade(90));
 console.log(hasPassingGrade(60));
 
 console.log(studentMsg([92, 88, 12, 77, 57, 100, 67, 38, 97, 89], 37));
+
